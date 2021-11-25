@@ -1,6 +1,8 @@
 let isActive = false;
 const details = document.getElementsByClassName("details")[0];
 const button = document.getElementsByClassName("play")[0];
+const fullPrice = document.getElementsByClassName("full-price")[0];
+const discountPrice = document.getElementsByClassName("discount-price")[0];
 
 function counting() {
   let from = parseInt(fullPrice.innerHTML.replace("$", ""));
