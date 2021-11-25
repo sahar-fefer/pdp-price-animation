@@ -1,65 +1,67 @@
 body {
-    margin: 0;  
-  }
-  
-  .page-wrapper {
+    margin: 0;
+}
+
+.page-wrapper {
     font-family: Roboto;
-  }
-  
-  .play {
-      cursor: pointer;
-      position: absolute;
-      left: 1020px;
-      top: 505px;
-  }
-  
-  .details {
+    position: relative;
+    margin: auto;
+    width: min-content;
+}
+
+.play {
+    cursor: pointer;
+    position: absolute;
+    left: 1020px;
+    top: 505px;
+}
+
+.details {
     position: absolute;
     display: flex;
     align-items: center;
     left: 1020px;
     top: 270px;
-  }
-  
-  .full-price,
-  .discount-price,
-  .coupon {
+}
+
+.full-price,
+.discount-price,
+.coupon {
     transition: all 0.3s;
-  }
-  
-  .full-price {
+}
+
+.full-price {
     font-size: 16px;
     line-height: 19px;
     color: #0f0f0f;
-  }
-  
-  .details.open .full-price{
-      font-size: 14px;
+}
+
+.details.open .full-price {
+    font-size: 14px;
     line-height: 16px;
     text-decoration-line: line-through;
-  }
-  
-  .discount-price {
+}
+
+.discount-price {
     font-size: 18px;
     line-height: 21px;
     color: #f22a42;
     margin: 0 12px 0 6px;
     width: 0;
     overflow: hidden;
-  }
-  
-  .details.open .discount-price {
+}
+
+.details.open .discount-price {
     width: 45px;
-  }
-  
-  .coupon {
+}
+
+.coupon {
     font-size: 14px;
     line-height: 16px;
     color: #89959c;
     opacity: 0;
-  }
-  
-  .details.open .coupon {
+}
+
+.details.open .coupon {
     opacity: 1;
-  }
-  
+}
