@@ -9,8 +9,8 @@ body {
   .play {
       cursor: pointer;
       position: absolute;
-    left: 1020px;
-    top: 505px;
+      left: 1020px;
+      top: 505px;
   }
   
   .details {
