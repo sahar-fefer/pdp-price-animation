@@ -32,13 +32,12 @@ body {
 
 .full-price {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 16px;
     color: #0f0f0f;
 }
 
 .details.open .full-price {
     font-size: 14px;
-    line-height: 16px;
     text-decoration-line: line-through;
 }
 
